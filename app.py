@@ -12,4 +12,4 @@ if st.button("Calcular"):  # Inicia el cálculo al presionar el botón.
         tipo = "Medio"  # Asigna la categoría medio.
     else:  # Se ejecuta cuando el valor es igual o superior a 31.1 °API.
         tipo = "Liviano"  # Asigna la categoría liviano.
-    st.markdown(f'<div class="resultado"><h2>{api:.2f} °API</h2><p><b>Clasificación:</b> {tipo}</p><p><b>SG ingresada:</b> {sg:.2f}</p></div>', unsafe_allow_html=True)  # Presenta grado API, clasificación y SG en una tarjeta final.
+    st.markdown(f'<div class="resultado"><h2>{api:.2f} °API</h2><p><b>Clasificación:</b> {tipo}</p><p><b>SG ingresada:</b> {sg:.2f}</p></div>', unsafe_allow_html=True)  #  Presenta grado API, clasificación y SG en una tarjeta final.
